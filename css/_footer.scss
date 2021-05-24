@@ -1,0 +1,147 @@
+//
+// フッターのスタイル
+//
+
+
+// footer
+section.sns {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem;
+    @media (min-width: 769px) {
+        margin: 0;
+    }
+}
+
+.sns-title {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin: 0 12rem 2rem;
+    font-size: 20px;
+    border: solid 2px;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: white;
+    @media (min-width: 769px) {
+        margin: 0 9rem 2rem;
+    }
+}
+
+.footer-twitter {
+    margin: 0 2rem;
+    @media (min-width: 769px) {
+        margin: 0 1rem;
+    }
+}
+
+.sns-info {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+// 下層ページaboutのsns部分
+section.about-sns {
+    margin: 2rem 2rem;
+    @media (min-width: 769px) {
+        margin: 0;
+    }
+}
+
+.about-sns-title {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin: 0 12rem 2rem;
+    font-size: 20px;
+    border: solid 2px;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: white;
+    @media (min-width: 769px) {
+        margin: 0 7rem 2rem;
+    }
+}
+
+.about-footer-twitter {
+    margin: 0 2rem;
+    @media (min-width: 769px) {
+        margin: 0 2rem;
+    }
+}
+
+.about-sns-info {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+// 下層ページmember固有のsns部分
+section.member-sns {
+    margin: 2rem 2rem;
+    @media (min-width: 769px) {
+        margin: 2rem 0;
+    }
+}
+
+.member-sns-title {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin: 0 12rem 2rem;
+    font-size: 20px;
+    border: solid 2px;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: white;
+    @media (min-width: 769px) {
+        display: none
+    }
+}
+
+.member-footer-twitter {
+    margin: 0 2rem;
+    @media (min-width: 769px) {
+        margin: 0 2rem;
+    }
+}
+
+.member-sns-info {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+// 下層ページsns.htmlページのスタイル
+section.sns-page {
+    margin: 2rem 2rem;
+    @media (min-width: 769px) {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+.sns-page-title {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin: 0 12rem 2rem;
+    font-size: 20px;
+    border: solid 2px;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: white;
+    @media (min-width: 769px) {
+        margin: 0 9rem 2rem;
+    }
+}
+
+.footer-twitter-page {
+    margin: 0 2rem;
+    @media (min-width: 769px) {
+        margin: 0 1rem;
+    }
+}
+
+.sns-page-info {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 2rem;
+}

@@ -1,0 +1,49 @@
+//
+// アバウトのスタイルページ
+//
+
+
+// about
+.carousel-about .slide {
+    position: relative;
+}
+
+.carousel-about .slide img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cover-about .slick-slider {
+    padding: 0 1rem;
+}
+
+.carousel-about .slick-slide img {
+    display: block;
+    @media (min-width: 769px) {
+        max-width: 1080px;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+.about-note {
+  color: #696969;
+  font-weight: bold;
+  border: solid 1px #e6e6e6;
+  padding: 0 1em 2em 1em;
+}
+
+.about-text-box {
+    padding: 2rem;
+    background-color: #fff;
+    line-height: 3rem;
+    @media (min-width: 769px) {
+        margin: auto 7rem auto 1rem;
+    }
+}
+
+.about-text-box ul {
+    list-style: none;
+    text-align: center;
+}

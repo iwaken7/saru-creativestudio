@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>猿-creative studio-</title>
+        <meta name="description" content="熱帯魚に焦点を当てたインターネット専門の熱帯魚販売店です。">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+        <link href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css" rel="stylesheet">
+        <link href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-4/css/4-1-4.css" rel="stylesheet">
+        <!-- キーワード検索 -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+                <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+        <link rel="stylesheet" href="./css/style.css">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/67eeda0733.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <!-- サイト遷移時のロゴアニメーション -->
+        <div id="splash">
+            <div id="splash_logo">
+              <img src="./images/logo/saru-creative-studio-logo.jpg" alt="" class="fadeUp">
+            </div>
+        </div>
+        
+        <header class="header">
+            <a href="top-page.html" class="logo"><img src="./images/logo/saru-creative-studio-logo.jpg" alt=""></a>
+            <!-- PC表示時の簡易メニュー -->
+            <div class="pc-menu">
+                <ul>
+                    <li><a href="top-page.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="next-stage.html">NEXT STAGE</a></li>
+                    <li><a href="topics.html">TOPICS</a></li>
+                    <li><a href="member.html">MEMBER</a></li>
+                    <li><a href="past.html">PAST</a></li>
+                    <li><a href="sns.html">SNS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- SP表示時の簡易メニュー -->
+            <div id="navArea">
+                <nav>
+                    <div class="inner">
+                        <ul>
+                            <li><a href="top-page.html">HOME</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="next-stage.html">NEXT STAGE</a></li>
+                            <li><a href="topics.html">TOPICS</a></li>
+                            <li><a href="member.html">MEMBER</a></li>
+                            <li><a href="past.html">PAST</a></li>
+                            <li><a href="sns.html">SNS</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <!-- ハンバーガーメニューアニメーション -->
+                <div class="toggle_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div id="mask"></div>
+            </div>
+        </header>
+        
+        <!-- カバー部分カルーセルスライド -->
+        <section class="cover">
+            <div class="carousel">
+                <div><img src="./images/cover/saru-butai1.jpg" alt=""></div>
+                <div><img src="./images/cover/saru-butai2.jpg" alt=""></div>
+                <div><img src="./images/cover/saru-butai3.jpg" alt=""></div>
+            </div>
+        </section>
+        
+        
+        <main>
+            <div class="top-page">
+                <!-- ※PC表示時のコンテナボックスsection class="next-stage" ~ section class="member"までの情報 -->
+                <div class="pc-group-box1">
+                    <!-- SP表示・PC表示共有部分 NEXt STAGE -->  
+                    <section class="next-stage">
+                        <div class="next-stage-title">NEXT STAGE</div>
+                        <div class="next-stage-box">
+                            <div class="next-stage-photo"><img src="./images/next-stage/next-stage.jpg" alt=""></div>
+                            <a href="past.html" class="next-stage-old">過去の作品はこちら<i class="fas fa-arrow-circle-right"></i></a>
+                        </div>
+                    </section>
+                
+                    <!-- SP表示・PC表示共有部分 TOPICS -->
+                    <section class="topics">
+                        <a href="topics.html" class="topics-title">TOPICS</a>
+                        <div class="topics-all">
+                            <div class="topics-days">2020/10/18</div>
+                            <div class="topics-text">退団のお知らせをアップしました。</div>
+                            <div class="topics-days">2020/08/10</div>
+                            <div class="topics-text">退団のお知らせをアップしました。</div>
+                            <div class="topics-days">2020/02/12</div>
+                            <div class="topics-text">全力聖七のプロフィールを公開しました。</div>
+                            <div class="topics-days">2020/12/07</div>
+                            <div class="topics-text">尾上寛篤のプロフィールを公開しました。</div>
+                            <div class="topics-days">2019/03/09</div>
+                            <div class="topics-text">ワークショップのお知らせを掲載しました。</div>
+                            <div class="topics-old"><a href="topics.html">お知らせ一覧はこちら<i class="fas fa-arrow-circle-right"></i></a></div>
+                        </div>
+                    </section>
+            
+                    <!-- SP表示・PC表示共有部分 MENBER -->
+                    <section class="member">
+                        <a href="member.html" class="member-title">MEMBER</a>
+                        <div class="member-box-top">
+                            <a href="member-aki-washio.html" class="member-photo"><img src="./images/member/washio-aki.jpg" alt=""></a>
+                            <a href="member-aki-washio.html" class="member-name">AKI WASHIO</a>
+                        </div>
+                        <div class="member-cast-all">
+                            <div class="member-box-cast-left">
+                                <a href="member-minami.html" class="member-photo-cast"><img src="./images/member/minami.jpg" alt=""></a>
+                                <a href="member-minami.html" class="member-name">MINAMI</a>
+                            </div>
+                            <div class="member-box-cast-right">
+                                <a href="member-morishita-kaede.html" class="member-photo-cast"><img src="./images/member/morishita-kaede.jpg" alt=""></a>
+                                <a href="member-morishita-kaede.html" class="member-name">KAEDE</a>
+                            </div>
+                            <div class="member-box-cast-left">
+                                <a href="member-somekawa-natuho.html" class="member-photo-cast"><img src="./images/member/somekawa-natuho.jpg" alt=""></a>
+                                <a href="member-somekawa-natuho.html" class="member-name">NATSUHO</a>
+                            </div>
+                            <div class="member-box-cast-right">
+                                <a href="member-zenryoku-seina.html" class="member-photo-cast"><img src="./images/member/zenryoku-seina.jpg" alt=""></a>
+                                <a href="member-zenryoku-seina.html" class="member-name">SEINA</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            
+                <!-- ※PC表示時のコンテナボックスsection class="past" ~ section class="sns"までの情報 -->
+                <div class="pc-group-box2">
+                    <!-- SP表示・PC表示共有部分 PAST -->
+                    <section class="past">
+                        <a href="past.html" class="past-title">PAST</a>
+                        <a href="past-fantasista.html" class="past-photo"><img src="./images/fantasista/FANTASISTA0.jpg" alt=""></a>
+                        <a href="past-fantasista.html" class="past-info">FANTASISTAの詳細はこちら<i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="past-mis-danderion.html" class="past-photo"><img src="./images/ms-danderion/ms-danderion.jpg" alt=""></a>
+                        <a href="past-mis-danderion.html" class="past-info">ミスダンデライオンの詳細はこちら<i class="fas fa-arrow-circle-right"></i></a>
+                    </section>
+            
+        
+        
+                    <footer>
+                        <!-- SP表示・PC表示共有部分 SNS -->
+                        <section class="sns">
+                            <a href="sns.html" class="sns-title">SNS</a>
+                            <div class="footer-twitter">
+                                <a class="twitter-timeline" data-height="400" href="https://twitter.com/saru_scs">Tweets by TwitterJP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                            <div class="sns-info">猿-creative studio-twitterへ<i class="fas fa-arrow-circle-right"></i></div>
+                        </section>
+                    </footer>
+                </div>
+            </div>
+        </main>    
+        
+        
+        <!-- コピーライト -->
+        <section class="copyright">
+            <div class="under-logo"><img src="./images/logo/saru-creative-studio-logo.jpg" alt=""></div>
+            <div class="copyright-title">猿-creative studio-</div>
+        </section>
+
+        <!-- JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="./js/logo-animation.js"></script>
+        <script src="./js/hamburger.js"></script>
+        <script src="./js/carousel.js"></script>
+        
+    </body>
+</html>

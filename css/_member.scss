@@ -1,0 +1,211 @@
+//
+// メンバーのスタイル
+//
+
+
+// member
+section.member {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 1rem;
+}
+
+.member-title {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin: 0 11rem 4rem;
+    font-size: 20px;
+    border: solid 2px;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: white;
+    @media (min-width: 769px) {
+        margin: 0 30rem 4rem;
+    }
+}
+
+.member-box-top {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.member-photo {
+    margin: auto;
+    @media (max-width: 769px) {
+        width: 60%;
+    }
+}
+
+.member-name {
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    font-size: 17px;
+}
+
+.member-cast-all {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.member-box-cast-left {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    @media (max-width: 769px) {
+        width: 48%;
+        margin: 1rem 1rem 0 0;
+    }
+}
+
+.member-box-cast-right {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    @media (max-width: 769px) {
+        width: 48%;
+        margin: 1rem 0 0 0;
+    }
+}
+
+.member-photo-cast {
+    margin: auto;
+}
+
+// 下層ページmember.htmlのスタイル
+.member-page-box {
+    margin: 0 1rem;
+    @media (min-width: 769px) {
+        max-width: 900px;
+        margin: auto;
+    }
+}
+
+.member-page-title {
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin: 3rem 10rem 2.5rem;
+    font-size: 25px;
+    justify-content: space-around;
+    @media (min-width: 769px) {
+        margin: 5rem 30rem 4rem;
+        font-size: 35px;
+    }
+}
+
+.member-page-box-top {
+    display: flex;
+    width: 90%;
+    margin-bottom: 1rem;
+    @media (min-width: 769px) {
+        flex-direction: column;
+        width: 55%;
+        margin: 0 auto 2rem;
+    }
+}
+
+.member-page-photo {
+    width: 45%;
+    @media (min-width: 769px) {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+.member-page-name {
+    font-family: 'DM Serif Display', serif;
+    margin: auto;
+    font-size: 25px;
+}
+
+.member-page-box-cast-left {
+    display: flex;
+    width: 90%;
+    margin-bottom: 1rem;
+    @media (min-width: 769px) {
+        flex-direction: column;
+        width: 20%;
+        margin: 0 auto 2rem;
+    }
+}
+
+.member-page-photo-cast {
+    @media (max-width: 769px) {
+    width: 45%;
+    }
+}
+
+.member-page-box-cast-right {
+    display: flex;
+    width: 90%;
+    margin-bottom: 1rem;
+    @media (min-width: 769px) {
+        flex-direction: column;
+        width: 20%;
+        margin: 0 auto 1rem;
+    }
+}
+
+.member-page-cast-all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// 下層ページメンバーの固有ページ
+.carousel-member .slide {
+    position: relative;
+}
+
+.carousel-member .slide img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cover-member .slick-slider {
+    padding: 0 1rem;
+}
+
+.carousel-member .slick-slide img {
+    display: block;
+    @media (min-width: 769px) {
+        max-width: 1080px;
+        margin: auto;
+        width: 40%;
+    }
+}
+
+.member-box {
+    @media (min-width: 769px) {
+    display: flex;
+    max-width: 1080px;
+    margin: 3rem auto 0;
+    width: 50%;
+    }
+}
+
+.member-note {
+  color: #696969;
+  font-weight: bold;
+  border: solid 1px #e6e6e6;
+  padding: 0 1em 1em 1em;
+  margin: 2rem auto;
+  @media (min-width: 769px) {
+      margin: auto;
+  }
+}
+
+.member-text-box {
+    padding: 2rem;
+    background-color: #fff;
+    line-height: 3rem;
+    @media (min-width: 769px) {
+        margin: auto 5rem auto 0;
+    }
+}
+
+.member-text-box ul {
+    list-style: none;
+    text-align: center;
+}

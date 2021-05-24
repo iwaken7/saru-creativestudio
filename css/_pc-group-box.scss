@@ -1,0 +1,40 @@
+//
+// PCグループの一括設定
+//
+
+
+// pc-group-box
+// top-page.htmlのページボックス
+.top-page{
+    margin: 4rem 1rem;
+    @media (min-width: 769px) {
+        display: flex;
+        max-width: 1080px;
+        margin: 5rem auto;
+    }
+}
+
+.pc-group-box1 {
+    @media (min-width: 769px) {
+        display: flex;
+        flex-direction: column;
+        max-width: 1080px;
+        margin: auto;
+    }
+}
+
+.pc-group-box2 {
+    @media (min-width: 769px) {
+        margin: 2rem 4rem 0 3rem;
+    }
+}
+
+// 下層ページabout.htmlのページボックス
+.about-box {
+    margin: 3rem 1rem;
+    @media (min-width: 769px) {
+        display: flex;
+        max-width: 1080px;
+        margin: 5rem auto;
+    }
+}

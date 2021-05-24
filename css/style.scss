@@ -1,0 +1,27 @@
+@charset 'UTF-8'; /* 文字コードの指定 */
+
+// Google Fontsの読み込み
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Kalam:wght@700&family=Lora:ital@1&family=Permanent+Marker&family=Yellowtail&display=swap');
+
+// Scssファイルの読み込み
+@import "base";
+@import "logo-animation";
+@import "header";
+@import "cover";
+@import "next-stage";
+@import "topics";
+@import "member";
+@import "past";
+@import "footer";
+@import "copyright";
+
+// pcデザインScssファイルの読み込み
+@import "pc-group-box";
+
+// 別遷移ページの読み込み
+@import "about";
+@import "contact";

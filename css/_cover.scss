@@ -1,0 +1,29 @@
+//
+// カバーのスタイル
+//
+
+
+// cover
+/* カバー部分のカルーセル carousel.jsを使用 */
+.carousel .slide {
+    position: relative;
+}
+
+.carousel .slide img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.slick-slider {
+    padding: 0 1rem;
+}
+
+.carousel .slick-slide img {
+    display: block;
+    @media (min-width: 769px) {
+        max-width: 1080px;
+        margin: auto;
+        width: 100%;
+    }
+}
